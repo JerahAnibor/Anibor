@@ -33,6 +33,7 @@ class anibor{
             echo $this->error_in_connection;
         }
     }
+    // End insert and update
 
     // Retrieving a value   
     function retrieve($statement, $column){
@@ -43,6 +44,7 @@ class anibor{
         }
         catch(Exception $ex){}
     }
+    // End retrieve
 
     // Delete
     function delete($statement){
@@ -51,7 +53,8 @@ class anibor{
             return $db->query($statement);
         }
         catch(Exception $ex){}
-    }               
+    }             
+    // End delete
     
     // Summing numerical value of columns
     function sum($statement, $column){
@@ -63,6 +66,7 @@ class anibor{
         }
         catch (Exception $ex){}
     } 
+    // End sum
     
     // Getting rows
     function get_rows($statement){
@@ -75,5 +79,6 @@ class anibor{
         }
         catch(Exception $ex){}
     }    
+    // End get rows
     // End CRUD functions
 }
