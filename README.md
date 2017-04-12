@@ -52,6 +52,10 @@ Retrieve
 // Retrieves or fetches a value from table
 $anibor->retrieve("SELECT github_url FROM table WHERE full_name = 'Jerahmeel Ovie Anibor'", "github_url");
 
+Query
+// Fetch data
+foreach ($anibor->db_connect->query("SELECT full_name FROM table") as $row) echo $row['fullname'];
+
 Row count
 // Gets the number of rows present in table
 $anibor->get_rows("SELECT * FROM table);
