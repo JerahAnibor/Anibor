@@ -2,7 +2,7 @@
 Author: Jerahmeel Anibor
 Email: jerahmeelanibor@gmail.com
 Library URL: https://github.com/anibor
-Facebook page URL: https://facebook.com/JAthe5th
+Facebook page URL: https://facebook.com/JAgeorgeson
 //
 
 A PHP database library written in Object-Oriented Programming OOP approach to rapidly increase software development time and code neatness.
@@ -34,14 +34,13 @@ $db_connect = $anibor->db_connect();
 STEP 4 - IMPLEMENTATION
 Examples
 
-Insert:
-// New entries. Inserts new records.
-value = array("Jerahmeel Anibor", "https"//github.com/anibor");
+Insert:// New entries. Inserts new records.
+$value = array("Jerahmeel Anibor", "https"//github.com/anibor");
 $anibor->tranzact("INSERT INTO table (full_name, github_url) VALUES (?, ?)", $value);
 
 Update
 // Update a table record in a particular field
-value = array("Jerahmeel Ovie Anibor", "https"//github.com/anibor");
+$value = array("Jerahmeel Ovie Anibor", "https"//github.com/anibor");
 $anibor->tranzact("UPDATE table SET full_name = ?, github_url = ?", $value);
 
 Delete
