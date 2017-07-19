@@ -2,7 +2,7 @@
 Author: Jerahmeel Anibor
 Email: jerahmeelanibor@gmail.com
 Library URL: https://github.com/anibor
-Facebook page URL: https://facebook.com/JAgeorgeson
+Facebook page URL: https://facebook.com/JerahAnibor
 //
 
 A PHP database library written in Object-Oriented Programming OOP approach to rapidly increase software development time and code neatness.
